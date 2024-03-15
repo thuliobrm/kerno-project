@@ -1,0 +1,43 @@
+.carousel-content {
+    background-color: #F4E3B3;
+    margin-top: -10px;
+    padding-bottom: 60px;
+}
+
+.carousel-list-area {
+    overflow-x: hidden;
+    padding-top: 55px;
+}
+
+.carousel-list {
+    transition: all ease 0.45s;
+    display: flex;
+    width: 800px;
+}
+
+.carousel-imgs {
+    display: inline-block;
+}
+
+.carousel-imgs img {
+    width: 100%;
+}
+
+.carousel-control {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+
+@media screen and (min-width: 700px) {
+    .carousel-imgs img {
+        width: 800px;
+        height: 537px;
+    }
+}

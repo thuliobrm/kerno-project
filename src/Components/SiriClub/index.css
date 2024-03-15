@@ -1,0 +1,116 @@
+.siriclub-content {
+    background-color: #6CCCFF;
+}
+
+.cloud-image {
+    background-color: #6CCCFF;
+    padding-top: 50px;
+}
+
+.siriclub-text-h2 {
+    font-size: 34px;
+    text-align: center;
+    color: #F85600;
+}
+
+.siriclub-text-h3 {
+    text-align: center;
+    color: #F85600;
+    margin-bottom: 30px;
+}
+
+.siri {
+    display: flex;
+    color: #FFFF;
+    gap: 10px;
+    padding: 20px;
+    text-align: justify;
+}
+
+.bg-siri {
+    position: relative;
+    margin-bottom: -7px;
+}
+
+.bg-siri img {
+    width: 100%;
+}
+
+.reserve-btn img {
+    width: 100%;
+}
+
+.reserve-btn-img {
+    margin-top: -7px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #F4E3B3
+}
+
+.siri-text-content-desktop {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 400px;
+    position: absolute;
+}
+
+.left-siri-content {
+    width: 30%;
+}
+
+.right-siri-content {
+    width: 30%;
+}
+
+.leftSiri {
+    display: flex;
+    color: #FFFF;
+    gap: 10px;
+    padding: 20px;
+    text-align: justify;
+}
+
+.rightSiri {
+    display: flex;
+    color: #FFFF;
+    gap: 10px;
+    padding: 20px;
+    text-align: justify;
+}
+
+
+
+@media screen and (min-width: 700px) {
+    .sun-cloud {
+        display: none;
+    }
+
+    .siri-mobile {
+        display: none;
+    }
+
+    .reserve-btn-img img {
+        width: 20%;
+    }
+
+    .siri-text-content {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .sun-cloud-desktop {
+        display: none;
+    }
+
+    .beach-siri-desktop {
+        display: none;
+    }
+
+    .siri-text-content-desktop {
+        display: none;
+    }
+}
+

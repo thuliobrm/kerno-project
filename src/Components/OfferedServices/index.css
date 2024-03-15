@@ -1,0 +1,107 @@
+.services {
+    background-color: #FFF8E8;
+    position: relative;
+}
+
+.services-h2-text {
+    text-align: center;
+    font-weight: 600;
+    font-size: 25px;
+    padding: 0;
+    color: #F85600;
+}
+
+.player {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: -125px;
+}
+
+.player-content {
+    position: relative;
+    z-index: 2;
+}
+
+.player-img {
+    position: relative;
+}
+
+.player-video {
+  position: absolute;
+  top: 17px;
+  right: 13px;
+}
+
+.bg-yellow {
+    position: absolute;
+    bottom: 40px;
+    z-index: 1;
+}
+
+.bg-yellow img {
+    width: 100%;
+}
+
+.bg-yellow-desktop {
+    position: absolute;
+    bottom: 40px;
+    z-index: 1;
+}
+
+.offered-services {
+    background-color: #6CCCFF;
+    margin-top: -10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: -5px;
+    padding-bottom: 60px;
+}
+
+.bluewave-img {
+    margin-bottom: -7px;
+}
+
+.bluewave-img img {
+   width: 100%;
+}
+
+.offered-services-margin {
+    background-color: #6CCCFF;
+    height: 190px;
+}
+
+.bg-conchas-desktop {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    top: 200px;
+  }
+
+  .bg-conchas-desktop img {
+    width: 80%;
+  }
+
+@media screen and (min-width: 700px) {
+    .bg-yellow {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .bg-yellow-desktop {
+        display: none;
+    }
+
+    .bluewave-img {
+        display: none;
+    }
+
+    .bg-conchas-desktop {
+        display: none;
+    }
+}

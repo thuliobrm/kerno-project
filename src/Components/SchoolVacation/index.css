@@ -1,0 +1,34 @@
+.school-vacation-content {
+    margin-top: -7px;
+    padding-top: 30px;
+    background-color: #F4E3B3;
+}
+
+.vacation-images img {
+    width: 100%;
+}
+
+.vacation-images-desktop img {
+    width: 100%;
+}
+
+.vacation-text-h3 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    color: #F85600;
+    background-color: #F4E3B3;
+    padding-bottom: 20px;
+}
+
+@media screen and (min-width: 700px) {
+    .vacation-images {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .vacation-images-desktop {
+        display: none;
+    }
+}
