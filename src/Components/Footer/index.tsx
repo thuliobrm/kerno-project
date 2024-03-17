@@ -2,9 +2,10 @@ import React from "react";
 import "./index.css";
 import Image from "next/image";
 import OrangeWaves from "@assets/rodape.png";
-import Socials from "@assets/Frame 1.png";
 import SocialsDesktop from "@assets/SocialsDesktop.png";
+import LogoAmarante from "@assets/logoSalinas.png";
 import Amarante from "@assets/amarante.png";
+import Socials from "@assets/social.png";
 import Link from "next/link";
 
 export default function Footer() {
@@ -22,32 +23,24 @@ export default function Footer() {
       </div>
 
       <div className="bg-container">
-        <div className="socials-context">
-          <Image src={Socials} alt="socials" />
-          <Link
-            href="https://www.salinas.com.br/pt/maragogi/promocoes"
-            style={{
-              position: "absolute",
-              right: "25px",
-              top: "120px",
-              width: "360px",
-              height: "65px",
-            }}
-          ></Link>
-        </div>
+        <div className="logo-btn-socials">
+          <div className="logo-amarante-content">
+            <Image src={LogoAmarante} alt="salinasamarante" />
+          </div>
 
-        <div className="socials-context-desktop">
-          <Image src={SocialsDesktop} alt="socials" />
-          <Link
-            href="https://www.salinas.com.br/pt/maragogi/promocoes"
-            style={{
-              position: "absolute",
-              right: "650px",
-              top: "10px",
-              width: "450px",
-              height: "65px",
-            }}
-          ></Link>
+          <div className="btn-other-periods">
+            <Link
+              target="_blank"
+              href="https://www.salinas.com.br/pt/maragogi/promocoes"
+            >
+              {" "}
+              <button>VEJA OUTROS PERIODOS</button>
+            </Link>
+          </div>
+
+          <div className="socials">
+            <Image src={Socials} alt="socials" />
+          </div>
         </div>
 
         <div className="hr">
@@ -69,12 +62,12 @@ export default function Footer() {
         <div className="privacy-policy-content">
           <h4 className="privacy-policy">Politica de privacidade </h4>
           <p className="copyright">
-            Copyright 2023 © Grupo Amarante. <br/> Todos os direitos reservados.
+            Copyright 2023 © Grupo Amarante. Todos os direitos
+            reservados.
           </p>
-
-          <div className="amarante">
-            <Image src={Amarante} alt="amarante" />
-          </div>
+        </div>
+        <div className="amarante">
+          <Image src={Amarante} alt="amarante" />
         </div>
       </div>
     </section>

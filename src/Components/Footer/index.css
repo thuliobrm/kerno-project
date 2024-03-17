@@ -1,6 +1,8 @@
 .bg-container {
     background-color: #F85600;
     margin-top: -7px;
+    display: flex;
+    flex-direction: column;
 }
 
 .wave-img {
@@ -9,16 +11,6 @@
 
 .wave-img img {
     width: 100%;
-}
-
-.socials-context {
-    position: relative;
-    display: flex;
-    justify-content: center;
-}
-
-.socials-context-desktop {
-    position: relative;
 }
 
 .footer-context-p {
@@ -34,13 +26,12 @@
 .privacy-policy {
     color: #FFFF;
     text-align: center;
-    margin-top: 30px;
+    margin-right: 40px;
 }
 
 .copyright {
     text-align: center;
     color: #FFFF;
-    margin-top: 20px;
 }
 
 .amarante {
@@ -63,18 +54,86 @@
     justify-content: center;
 }
 
-.socials-context-desktop img {
-    width: 100%;
+.privacy-policy-content {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
 }
 
-@media screen and (min-width: 700px) {
-    .socials-context {
-        display: none;
+
+.logo-btn-socials {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo-btn-socials-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-amarante-content {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.btn-other-periods {
+    display: flex;
+    align-items: center;
+}
+
+.btn-other-periods button {
+    background-color: #FFA901;
+    color: #FFFF;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    width: 320px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.socials img {
+    margin-top: 25px;
+}
+
+.text-footer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-right: 80px;
+    align-items: baseline;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .privacy-policy-content {
+        flex-direction: column;
     }
-}
 
-@media screen and (max-width: 700px) {
-    .socials-context-desktop {
-        display: none;
+    .logo-btn-socials {
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+    }
+
+    .btn-other-periods {
+        align-self: center;
+    }
+
+    .socials {
+        align-self: center;
+    }
+
+    .logo-amarante-content {
+        margin-left: 110px;
     }
 }

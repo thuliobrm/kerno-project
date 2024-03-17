@@ -76,18 +76,15 @@ export default function SiriClub() {
           src={BeachAndSiri}
           alt="beachandsiri"
         />
-        <div className="reserve-btn-img">
-          <Image src={ReserveBtn} alt="reserve" />
+        <div className="reserve-btn-img ">
           <Link
             href="https://book.omnibees.com/hotelresults?c=5173&q=9098&hotel_folder=&NRooms=1&CheckIn=03072024&CheckOut=07072024&ad=2&ch=0&ag=1&child_age_input=&group_code=&Code=&loyalty_code=&lang=pt-BR&currencyId=16"
-            style={{
-              position: "absolute",
-              right: "22px",
-              top: "0px",
-              width: "370px",
-              height: "70px",
-            }}
-          ></Link>
+          >
+            <Image 
+              src={ReserveBtn} 
+              alt="reserve" 
+              style={{ width: '372px', height: '70px'}}/>
+          </Link>
         </div>
       </div>
     </section>

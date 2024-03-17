@@ -53,7 +53,7 @@ export default function Calendar() {
       {method === "calendar" ? (
         <div>
           <h3 className="calendar-section-reservation-period-text">
-            SELECIONE O PERIODO DA SUA RESERVA
+            SELECIONE O PERÍODO DA SUA RESERVA
           </h3>
 
           <div className="bg-conchas">
@@ -77,7 +77,7 @@ export default function Calendar() {
                   onClick={() => setMethod("reservation")}
                   className="btn"
                 >
-                  AVANCAR
+                  AVANÇAR
                 </button>
               </div>
             </div>

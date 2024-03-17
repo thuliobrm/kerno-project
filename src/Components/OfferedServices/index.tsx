@@ -36,7 +36,7 @@ export default function OfferedServices() {
 
           <div className="player-video">
             <iframe
-              style={{ width: "320px", height: "595px" }}
+              style={{ width: "320px", height: "565px" }}
               src="https://www.youtube.com/embed/2c7rTB4Z1Vs?si=1DhHWPOhadapi6Ig"
             />
           </div>

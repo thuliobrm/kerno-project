@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import "./index.css";
+import BgConchas from '@assets/bgConchasCalendar.png'
+import Image from "next/image";
 
 export default function Reservation() {
   const [hasChildren, setHasChildren] = useState("0");
@@ -10,8 +12,11 @@ export default function Reservation() {
 
   return (
     <div className="reserves-container">
-      <div className="reserves">
+         <div className="bg-conchas">
+            <Image src={BgConchas} alt="bgconchas"/>
+          </div>
         <h3>SELECIONE A QUANTIDADE DE PESSOAS</h3>
+      <div className="reserves">
         <div className="custom-select">
           <select name="adult" id="adult">
             <option className="black" value="">
@@ -79,8 +84,8 @@ export default function Reservation() {
           </select>
         </div>
 
-        <button className="search-btn">PESQUISAR</button>
       </div>
+        <button className="search-btn">PESQUISAR</button>
     </div>
   );
 }

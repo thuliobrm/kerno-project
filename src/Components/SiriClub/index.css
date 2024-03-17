@@ -11,12 +11,14 @@
     font-size: 34px;
     text-align: center;
     color: #F85600;
+    font-weight: 600;
 }
 
 .siriclub-text-h3 {
     text-align: center;
     color: #F85600;
     margin-bottom: 30px;
+    font-weight: 600;
 }
 
 .siri {
@@ -29,7 +31,6 @@
 
 .bg-siri {
     position: relative;
-    margin-bottom: -7px;
 }
 
 .bg-siri img {
