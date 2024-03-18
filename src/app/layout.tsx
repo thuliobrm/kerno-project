@@ -3,7 +3,10 @@ import { Rubik } from "next/font/google";
 import "./globals.css";
 import './global.css';
 
-export const rubik = Rubik({ subsets: ["latin"]});
+const rubik = Rubik({ 
+  subsets: ['latin'],
+  variable: "--font-sans",
+});
 
 export const metadata: Metadata = {
   title: "Férias de julho por aqui",
