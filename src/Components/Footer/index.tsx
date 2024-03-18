@@ -2,7 +2,7 @@ import React from "react";
 import "./index.css";
 import Image from "next/image";
 import OrangeWaves from "@assets/rodape.png";
-import SocialsDesktop from "@assets/SocialsDesktop.png";
+import OrangeWavesDesktop from "@assets/orageWavesDesktop.png";
 import LogoAmarante from "@assets/logoSalinas.png";
 import Amarante from "@assets/amarante.png";
 import Socials from "@assets/social.png";
@@ -19,7 +19,7 @@ export default function Footer() {
   return (
     <section className="footer-content">
       <div className="wave-img">
-        <Image src={OrangeWaves} alt="waves" />
+        <Image src={OrangeWavesDesktop} alt="waves" />
       </div>
 
       <div className="bg-container">
